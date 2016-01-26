@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="code\camera\Camera.cpp" />
+    <ClCompile Include="code\node\Graph.cpp" />
+    <ClCompile Include="code\obstacle\Obstacle.cpp" />
+    <ClCompile Include="code\pathing\PathPlanner.cpp" />
+    <ClCompile Include="code\Program.cpp" />
+    <ClCompile Include="code\scene\Scene.cpp" />
+    <ClCompile Include="code\viewer\Viewer.cpp" />
+    <ClCompile Include="code\worldmanager\Worldmanager.cpp" />
+    <ClCompile Include="code\statemachine\PlayerStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="code\obstacle\ChargePack.cpp" />
+    <ClCompile Include="code\Entities\Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Entities\Enemy.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="code\statemachine\EnemyStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\camera\Camera.h" />
+    <ClInclude Include="code\Enums.h" />
+    <ClInclude Include="code\node\Graph.h" />
+    <ClInclude Include="code\node\NodeAndEdge.h" />
+    <ClInclude Include="code\ObjectTypes.h" />
+    <ClInclude Include="code\obstacle\Obstacle.h" />
+    <ClInclude Include="code\pathing\PathPlanner.h" />
+    <ClInclude Include="code\scene\Scene.h" />
+    <ClInclude Include="code\viewer\Viewer.h" />
+    <ClInclude Include="code\worldmanager\Worldmanager.h" />
+    <ClInclude Include="code\statemachine\State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="code\statemachine\FSMController.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="code\statemachine\PlayerStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="code\obstacle\ChargePack.h" />
+    <ClInclude Include="code\Entities\Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Entities\Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Entities\Enemy.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="code\statemachine\EnemyStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="States">
+      <UniqueIdentifier>{a0e1145f-fc5b-4879-baaf-551e171b79dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{10ce8cff-b824-4b33-ae3a-4cf806638619}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
